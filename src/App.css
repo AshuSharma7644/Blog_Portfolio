@@ -131,3 +131,25 @@ button.btn:hover {
     max-width: 1300px;
   
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .inner-home {
+        display: block;
+    }
+    .content-home {
+        margin: 0px;
+        width: 100%;
+    }
+    
+    .inner-home {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .image-home {
+        width: 100%;
+        padding-top: 30px;
+    }
+  }
