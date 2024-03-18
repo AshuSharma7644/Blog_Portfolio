@@ -7,6 +7,9 @@
     width: 30%;
     margin: auto;
 }
+li.end-contact {
+    margin-right: 0px !important;
+}
 .menus {
     width: 70%;
     display: flex;
@@ -91,9 +94,40 @@ button.btn {
     text-decoration: none;
     background: #222222;
     border-radius: 30px;
+    color: white;
+}
+button.btn:hover {
+    color: white;
 }
 
 .btn a {
     color: white;
     text-decoration: none;
+}
+
+.content-about {
+    width: 60%;
+}
+.image-about {
+    width: 40%;
+}
+/* .content-about {
+    margin: auto;
+    border: 1px solid black;
+    padding: 50px;
+} */
+.content-about {
+    margin: auto 0px auto auto;
+    /* border: 1px solid black; */
+    padding: 50px;
+    margin-left: -80px;
+    box-shadow: 0px 10px 40px 0px #00000042;
+}
+
+.image-about img {
+    width: 100%;
+}
+.inner-about {
+    max-width: 1300px;
+  
 }
