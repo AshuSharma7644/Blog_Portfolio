@@ -10,7 +10,7 @@ const Home = () => {
         <div className='inner-home inner-col container'>
           <div className='content-home inner-content'>
             <h1>Hello, Welcome</h1>
-            <p>I'm Arvind Sharma, I'm a Frontend Developer. My goal is to write clean and deliver awesome final product. I am very persistent and detiled oriented. My skill include Web design , Wordpress , Html, Css ,etc.</p>
+            <p>I'm Arvind Sharma, I'm a Frontend Developer. My goal is to write clean and deliver awesome final product. I am very persistent and detiled oriented. My skill include Web design , Wordpress , Html, Css etc.</p>
             <NavLink to="/about"><button className='btn'> Read More</button></NavLink>
           </div>
           <div className='image-home'>
