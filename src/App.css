@@ -1,5 +1,5 @@
 .inner-main {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: auto;
     display: flex;
 }
@@ -55,12 +55,16 @@ span.logo-first {
 
 
 .inner-col {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     width: 100%;
     margin: auto;
     display: flex;
     gap: 30px;
     padding: 60px 0px;
+}
+.nav-item a {
+    font-size: 18px;
+    font-weight: 600;
 }
 .image-home {
     width: 50%;
