@@ -22,7 +22,7 @@ const Header = () => {
 
 
 
-<nav className="navbar navbar-expand-lg navbar-light bg-light py-4">
+<nav className="navbar navbar-expand-lg navbar-light bg-light py-4 custom-nav">
   <div className="container px-0">
     <NavLink className="navbar-brand" to="/"><h2><span className='logo-first'>Arvind</span> Sharma</h2></NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

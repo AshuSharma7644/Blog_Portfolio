@@ -139,7 +139,7 @@ button.btn:hover {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 980px) {
     .inner-home {
         display: block;
     }
@@ -155,5 +155,29 @@ button.btn:hover {
     .image-home {
         width: 100%;
         padding-top: 30px;
+    }
+    .custom-nav {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .inner-about {
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .image-about {
+        width: 100%;
+        text-align: center;
+    }
+    .image-about img {
+        width: 80%;
+        border-radius: 10px;
+    }
+    .content-about {
+        width: 100%;
+        margin: 0px !important;
+        padding: 20px !important;
+        border-radius: 10px;
+        margin-top: 30px !important;
     }
   }
