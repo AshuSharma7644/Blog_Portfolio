@@ -4,6 +4,7 @@ import Header from './Header';
 import Home from './Home';
 import  About  from './About';
 import Contact from './Contact';
+import SignUp from './SignUp';
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
           <Route path='/' element={<Home/>}  />
           <Route path='/about' element={<About/>}  />
           <Route path='/contact' element={<Contact/>}  />
+          <Route path='/sign-up' element={<SignUp/>}  />
         </Routes>
       </BrowserRouter>
     </>

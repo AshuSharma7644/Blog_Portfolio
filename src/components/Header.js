@@ -39,6 +39,9 @@ const Header = () => {
         <li className="nav-item">
           <NavLink className="nav-link" to="/contact">Contact Us</NavLink>
         </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to="/sign-up">Sign Up</NavLink>
+        </li>
        
       </ul>
       {/* <form className="d-flex">
